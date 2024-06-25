@@ -14,7 +14,7 @@ export default {
         'slate-gray': '#4a4a4a',
       },
       backgroundImage: {
-        dotted: 'url("./src/assets/dotted_halftone.png")',
+        dotted: 'url("./public/assets/dotted_halftone.png")',
       },
     },
   },
