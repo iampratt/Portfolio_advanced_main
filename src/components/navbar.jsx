@@ -29,17 +29,33 @@ const navbar = () => {
       {isOpen && (
         <div className='fixed right-0 top-[70px] mr-2 bg-slate-gray px-3 py-6 rounded-2xl z-50 font-urbanist'>
           <div className='flex flex-col w-[45vw] gap-3'>
-            <NavLink to='home' className={NavLinkStyle}>
+            <NavLink
+              to='home'
+              onClick='setOpen(false)'
+              className={NavLinkStyle}
+            >
               Home
             </NavLink>
             <hr className='bg-black border-0 h-1' />
-            <NavLink to='about' className={NavLinkStyle}>
+            <NavLink
+              to='about'
+              onClick='setOpen(false)'
+              className={NavLinkStyle}
+            >
               About
             </NavLink>
-            <NavLink to='work' className={NavLinkStyle}>
+            <NavLink
+              to='work'
+              onClick='setOpen(false)'
+              className={NavLinkStyle}
+            >
               Work
             </NavLink>
-            <NavLink to='contact' className={NavLinkStyle}>
+            <NavLink
+              to='contact'
+              onClick='setOpen(false)'
+              className={NavLinkStyle}
+            >
               Contact
             </NavLink>
           </div>
